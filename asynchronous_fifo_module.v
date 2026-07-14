@@ -1,6 +1,6 @@
 `timescale 1ns/1ps
 
-module async_fifo
+module asyncfifo
 # (parameter W = 32, D = 16)
   (input rd_en, wt_en, rd_clk, wt_clk, rstn,
   input [W-1:0] data_in,
